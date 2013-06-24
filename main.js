@@ -26,7 +26,7 @@ jQuery(document).ready(function() {
    jQuery("#form-message").click( function(e) {
      e.preventDefault();
      var post_data = jQuery('#message-form').serialize();
-     var form_action = 'mailing.php';
+     var form_action = 'mailing.php'; //Directory nad file name to save poses
      var form_method = jQuery('#message-form').attr("method");
      var fullname = jQuery('#fullname');
      var email = jQuery('#email');
